@@ -9,6 +9,7 @@ import exception.NegativeNumberException;
 import model.Ingredient;
 
 public class IngredientTest {
+	//Initialize the object of ingredient
 	private Ingredient ingredient;
 	
 	//First scenario method
@@ -16,6 +17,7 @@ public class IngredientTest {
 		ingredient = new Ingredient("Tomate", 245);
 	}
 	
+	//The first test of the table 
 	@Test
 	public void testAddPositiveWeight() throws NegativeNumberException {
 		
@@ -28,6 +30,7 @@ public class IngredientTest {
 		
 	}
 	
+	//The second test of the table
 	@Test
 	public void testAddNegativeWeight() throws NegativeNumberException {
 		double w = -100;
@@ -39,6 +42,7 @@ public class IngredientTest {
 		
 	}
 	
+	//Third test of the table
 	@Test
 	public void testRemovePositiveWeight() throws NegativeNumberException {
 		double w = 45;
@@ -50,6 +54,8 @@ public class IngredientTest {
 		
 	}
 	
+	
+	//Forth test of the table
 	@Test
 	public void testRemoveWeightNegative() throws NegativeNumberException{
 		double w = -100;

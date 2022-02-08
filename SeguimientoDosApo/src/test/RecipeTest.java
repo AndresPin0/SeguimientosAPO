@@ -25,6 +25,7 @@ private Recipe recipe;
 		
 	}
 	
+	//First test of the second table
 	@Test
 	public void addIngredientTest(){
 		
@@ -41,6 +42,7 @@ private Recipe recipe;
 		
 	}
 	
+	//Second test of the second table
 	@Test
 	public void addIngredientSecondTest(){	
 		String n = "Pimienta";
@@ -55,6 +57,7 @@ private Recipe recipe;
 		
 	}
 	
+	//Third test of the second table
 	@Test
 	public void addIngredientThirdTest() {
 		
@@ -75,6 +78,7 @@ private Recipe recipe;
 		
 	}
 	
+	//The last test of the second table
 	@Test
 	public void removeIngredientTest() {
 		setupStage2();
