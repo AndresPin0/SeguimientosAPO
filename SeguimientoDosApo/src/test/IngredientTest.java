@@ -59,10 +59,4 @@ public class IngredientTest {
 
 		assertEquals(ingredient.getWeight(), 245, 0.001);
 	}
-	
-	public void pruebaGit() {
-		
-	}
-	
-
 }
