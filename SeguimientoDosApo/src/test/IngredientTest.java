@@ -7,6 +7,7 @@ import org.junit.Test;
 import exception.NegativeNumberException;
 
 import model.Ingredient;
+//
 
 public class IngredientTest {
 	private Ingredient ingredient;
