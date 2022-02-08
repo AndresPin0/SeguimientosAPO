@@ -6,12 +6,16 @@ import exception.NegativeNumberException;
 
 public class Recipe {
 	
+	//List to add ingredients to the recipe object
 	private List<Ingredient> ingredients;
 	
+	//Recipe constructor
 	public Recipe() {
+		//ArrayList for ingredients with the object of the class Ingredients
 		ingredients = new ArrayList<Ingredient>();
 	}
 	
+	//Method to add an ingredient by looking at the name is null
 	public void addIngredient(String n, double w) {
 		
 		Ingredient searched = null;
@@ -35,6 +39,7 @@ public class Recipe {
 		}		
 	}
 	
+	//This method remove all values of this object
 	public void removeIngredient(String n) {
 		
 		for(int i = 0; i < ingredients.size(); i++) {
@@ -44,7 +49,7 @@ public class Recipe {
 		}
 	}
 	
-	
+	//Initialize the list
 	public List<Ingredient> getIngredients(){
 		return ingredients;
 	}
