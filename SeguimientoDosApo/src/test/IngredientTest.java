@@ -7,7 +7,6 @@ import org.junit.Test;
 import exception.NegativeNumberException;
 
 import model.Ingredient;
-//
 
 public class IngredientTest {
 	private Ingredient ingredient;
@@ -59,6 +58,10 @@ public class IngredientTest {
 		ingredient.removeWeight(w);
 
 		assertEquals(ingredient.getWeight(), 245, 0.001);
+	}
+	
+	public void pruebaGit() {
+		
 	}
 	
 
