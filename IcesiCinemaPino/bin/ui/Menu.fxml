@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="314.0" style="-fx-background-color: #2A6B9B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="registerFunctionBTN" layoutX="72.0" layoutY="208.0" mnemonicParsing="false" onAction="#registerFunction" prefHeight="47.0" prefWidth="171.0" style="-fx-background-color: #D4E0F0;" text="Registrar Funcion">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font></Button>
+      <Button fx:id="registerClientBTN" layoutX="72.0" layoutY="280.0" mnemonicParsing="false" onAction="#registerClient" prefHeight="47.0" prefWidth="171.0" style="-fx-background-color: #D4E0F0;" text="Registrar clientes">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font></Button>
+      <Label layoutX="77.0" layoutY="63.0" text="Menu" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="64.0" />
+         </font>
+      </Label>
+      <Button fx:id="seeReportBTN" layoutX="84.0" layoutY="392.0" mnemonicParsing="false" onAction="#seeReport" prefHeight="33.0" prefWidth="146.0" style="-fx-background-color: #D4E0F0;" text="Ver Reporte">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

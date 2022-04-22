@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="419.0" prefWidth="750.0" style="-fx-background-color: #2A6B9B;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="353.0" layoutY="179.0" prefHeight="25.0" prefWidth="370.0" text="Ingresa el documento de identidad:" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font></Label>
+      <TextField fx:id="idBUTF" layoutX="401.0" layoutY="210.0" prefHeight="39.0" prefWidth="189.0" promptText="Cedula">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font></TextField>
+      <Button fx:id="joinBTN" layoutX="443.0" layoutY="268.0" mnemonicParsing="false" onAction="#joinBU" prefHeight="38.0" prefWidth="106.0" style="-fx-background-color: #D4E0F0;" text="Ingresar">
+         <font>
+            <Font name="Arial" size="21.0" />
+         </font></Button>
+      <Label layoutX="14.0" layoutY="182.0" prefHeight="44.0" prefWidth="320.0" text="Bienvenido a Cine ICESI" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

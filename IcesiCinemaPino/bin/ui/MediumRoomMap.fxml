@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="705.0" style="-fx-background-color: #DAE0EF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="sillaA1BTN" layoutX="118.0" layoutY="106.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaA2BTN" layoutX="176.0" layoutY="106.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaA3BTN" layoutX="234.0" layoutY="106.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaA4BTN" layoutX="292.0" layoutY="106.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaA5BTN" layoutX="350.0" layoutY="106.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaA6BTN" layoutX="408.0" layoutY="106.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaA7BTN" layoutX="466.0" layoutY="106.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaB1BTN" layoutX="118.0" layoutY="164.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaB2BTN" layoutX="176.0" layoutY="164.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaD7BTN" layoutX="466.0" layoutY="280.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaD6BTN" layoutX="408.0" layoutY="280.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaD5BTN" layoutX="350.0" layoutY="280.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaD4BTN" layoutX="292.0" layoutY="280.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaD3BTN" layoutX="234.0" layoutY="280.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaD2BTN" layoutX="176.0" layoutY="280.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaD1BTN" layoutX="118.0" layoutY="280.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaC7BTN" layoutX="466.0" layoutY="222.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaC1BTN" layoutX="118.0" layoutY="222.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaC6BTN" layoutX="408.0" layoutY="222.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaC5BTN" layoutX="350.0" layoutY="222.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaC4BTN" layoutX="293.0" layoutY="222.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaC3BTN" layoutX="234.0" layoutY="222.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaC2BTN" layoutX="176.0" layoutY="222.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaB7BTN" layoutX="466.0" layoutY="164.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaB6BTN" layoutX="408.0" layoutY="164.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaB5BTN" layoutX="350.0" layoutY="164.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaB4BTN" layoutX="292.0" layoutY="164.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaB3BTN" layoutX="234.0" layoutY="164.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaF7BTN" layoutX="466.0" layoutY="429.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaF6BTN" layoutX="408.0" layoutY="429.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaE7BTN" layoutX="466.0" layoutY="371.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaE6BTN" layoutX="408.0" layoutY="371.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaF5BTN" layoutX="350.0" layoutY="429.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaE5BTN" layoutX="350.0" layoutY="371.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaF4BTN" layoutX="292.0" layoutY="429.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaE4BTN" layoutX="292.0" layoutY="371.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaF3BTN" layoutX="234.0" layoutY="429.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaE3BTN" layoutX="234.0" layoutY="371.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaF2BTN" layoutX="176.0" layoutY="429.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaE2BTN" layoutX="176.0" layoutY="371.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaF1BTN" layoutX="118.0" layoutY="429.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Button fx:id="sillaE1BTN" layoutX="118.0" layoutY="371.0" mnemonicParsing="false" onAction="#addSilla" prefHeight="58.0" prefWidth="58.0" style="-fx-shape: &quot;M 600 300 A 50 50 0 1 1 450 250 A 50 50 0 1 1 600 300 A 50 50 0 1 1 600 300 &quot;; -fx-background-color: #2A6B9B;" />
+      <Ellipse fill="#7c7c7c" layoutX="317.0" layoutY="31.0" radiusX="213.0" radiusY="10.0" stroke="#8a8a8a" strokeType="INSIDE" />
+      <Label layoutX="276.0" layoutY="47.0" text="PANTALLA">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="122.0" text="A">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="180.0" text="B">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="238.0" text="C">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="296.0" text="D">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="387.0" text="E">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="445.0" text="F">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="89.0" text="1">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="89.0" text="2">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="89.0" text="3">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="317.0" layoutY="89.0" text="4">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="375.0" layoutY="89.0" text="5">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="433.0" layoutY="89.0" text="6">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="491.0" layoutY="89.0" text="7">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="doneBTN" layoutX="592.0" layoutY="238.0" mnemonicParsing="false" onAction="#done" text="Done" />
+   </children>
+</AnchorPane>
